@@ -7,6 +7,5 @@
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     -webkit- transform: translateY(-50%) translateX(-50%);
-    background: #99f;
     height: 100px;
   }
