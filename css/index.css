@@ -5,9 +5,30 @@ body{
 
 div{
     background-color: #fff;
+    margin: 12.5%;
+    clear: both;
+    height: 320px;
+}
+
+img{
+    margin: 2.5%;
 }
 
 h1{
+    color: #533914;
     font-size: 48px;
+    font-weight: 700;
     line-height: 1.5;
+}
+
+h2{
+    color: #8f6224;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
 }
