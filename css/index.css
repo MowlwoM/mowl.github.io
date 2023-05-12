@@ -4,7 +4,11 @@ body{
 }
 
 div{
-    background-color: #fff
+    background-color: #fff;
+}
+
+img{
+    margin: 20px;
 }
 
 h1{
