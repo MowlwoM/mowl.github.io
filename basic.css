@@ -1,9 +1,0 @@
-.body {
-    position: relative;
-    font-family: 'Cormorant Infant', serif;
-  }
-  .center_align {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
