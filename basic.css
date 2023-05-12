@@ -9,4 +9,7 @@
     transform: translateY(-50%) translateX(-50%);
     -webkit- transform: translateY(-50%) translateX(-50%);
     height: 100px;
+    h1{
+      text-align: center
+    }
   }
