@@ -1,3 +1,8 @@
-body {
+body{
     font-family: 'Cormorant Infant', serif;
+}
+
+h1{
+    font-size: 48px;
+    line-height: 1.5;
 }
