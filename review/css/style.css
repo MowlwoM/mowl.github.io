@@ -1,0 +1,128 @@
+p {
+    text-indent: 1em;
+}
+
+.index {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 35em;
+    border: ridge 5px #2c3e50;
+    padding: 2em;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-box {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 40em;
+    border: solid 1px #454545;
+    padding: 1em;
+    flex-direction: column;
+
+    h3 {
+        text-align: center;
+    }
+
+    .artwork {
+        width: 256px;
+    }
+
+    .genre {
+        text-indent: -1em;
+        text-align: center;
+    }
+
+    .favorite-track {
+        text-indent: -1em;
+        text-align: center;
+    }
+
+    .score {
+        text-indent: -1em;
+        text-align: center;
+        font-size: x-large;
+
+        .ten {
+            animation: rainbow 500ms infinite;
+        }
+
+        .nine {
+            color: red;
+        }
+
+        .eight {
+            color: orange;
+        }
+
+        .seven {
+            color: yellow;
+        }
+
+        .six {
+            color: greenyellow;
+        }
+
+        .five {
+            color: lawngreen;
+        }
+
+        .four {
+            color: turquoise;
+        }
+
+        .three {
+            color: deepskyblue;
+        }
+
+        .two {
+            color: royalblue;
+        }
+
+        .one {
+            color: mediumpurple;
+        }
+
+        .zero {
+            color: rebeccapurple;
+        }
+    }
+
+}
+
+@keyframes rainbow {
+    0% {
+        color: #ff5353;
+    }
+    14.3% {
+        color: #ffcf53;
+    }
+    28.6% {
+        color: #e8ff53;
+    }
+    42.9% {
+        color: #53ff5d;
+    }
+    57.2% {
+        color: #53ffbc;
+    }
+    71.5% {
+        color: #5393ff;
+    }
+    85.8% {
+        color: #ca53ff;
+    }
+    100% {
+        color: #ff53bd;
+    }
+}
